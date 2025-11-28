@@ -5,12 +5,14 @@ const EstiloGlobal = createGlobalStyle `
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+        list-style: none;
         
         .inter-<uniquifier> {
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
         font-weight: <weight>;
         font-style: normal;
+        
         }
     }
 
@@ -18,6 +20,7 @@ const EstiloGlobal = createGlobalStyle `
         padding-top: 80px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #f0f0f0;
+        
 
         @media (max-width: 768px) {
             padding-top: 16px;
